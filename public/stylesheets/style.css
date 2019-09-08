@@ -48,13 +48,22 @@ header{
 }
 
 .secondSection{
-  height: 300px;
+  height: 500px;
   background-color: white;
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+.whatIsGY{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.leftContent{
+  border-right: 1px solid black;
 }
 
 .flex-container {
