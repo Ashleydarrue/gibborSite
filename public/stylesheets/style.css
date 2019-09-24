@@ -6,8 +6,8 @@ body {
 }
 
 nav{
+  height: 80px !important;
  background-color: white !important;
- height: 80px !important;
 }
 
 nav img {
