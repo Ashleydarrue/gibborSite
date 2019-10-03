@@ -59,10 +59,6 @@ header{
   text-align: center;
 }
 
-/* .leftContent{
-  border-right: 1px solid black;
-} */
-
 .whatIsGY{
   display: flex;
   justify-content: space-evenly;
