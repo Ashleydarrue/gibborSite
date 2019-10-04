@@ -19,17 +19,48 @@ nav img {
 }
 
 nav ul a{
-  font-size: 20px !important;
-  margin-top: 5px;
+  font-size: 15px !important;
+  margin-top: 15px;
   color: black !important;
 }
 
 header{
   margin-top: 2px;
-  background-image: url('/images/friends.jpeg');
+  background-image: url('/images/jump.jpeg');
   background-size: cover;
   height: 700px;
   background-repeat: no-repeat;
+}
+
+.CGS{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-right: 580px;
+}
+
+.CGS p {
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 44px;
+  padding: 7px;
+  border-radius: 10px;
+  margin-top: 0px;
+}
+
+.CGS p:first-child {
+  margin-right: 555px;
+  margin-top: 260px;
+}
+
+.CGS p:nth-child(2) {
+  margin-right: 525px;
+  margin-top: -40px;
+}
+
+.CGS p:last-child {
+  margin-right: 490px;
+  margin-top: -40px;
 }
 
 .headerLinks{
@@ -40,9 +71,11 @@ header{
 .headerLinks p{
   color: white;
   font-size: 20px;
-  border: 1px solid white;
+  border: 1px solid black;
+  border-radius: 12px;
+  background: black;
   padding: 5px 15px;
-  margin-top: 580px;
+  margin-top: 50px;
 }
 
 .headerLinks p:last-child{
@@ -61,11 +94,15 @@ header{
 
 .whatIsGY{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
-
 .leftContent{
   border-right: 1px solid black;
+  padding: 5px 25px;
+}
+.rightContent{
+  border-left: 1px solid black;
+  padding: 5px 25px;
 }
 
 .flex-container {
@@ -79,28 +116,41 @@ header{
 .flex-container > span {
   text-transform: uppercase;
   color: black;
-  background-color: #212428;
   width: 25%;
   height: 200px;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
+  flex-direction: column;
   border-radius: 12px 0px;
   border: 2px solid white;
   background-image: url("/images/divBack.jpeg"); 
 }
 
 .fourthSection{
-  height: 300px;
-  background-color: white;
-  color: black;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  text-align: center;
+}
+.contain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.containImage > img{
+  width: 150px;
+  height: 150px;
+}
+
+.containImage{
+  background-color: brown;
+}
+
+.containWord{
+  background-color: black;
 }
 
 footer{
